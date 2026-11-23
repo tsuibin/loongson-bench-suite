@@ -1,0 +1,120 @@
+===== aes-128-cbc =====
+Doing AES-128-CBC ops for 3s on 16 size blocks: 15756270 AES-128-CBC ops in 2.99s
+Doing AES-128-CBC ops for 3s on 64 size blocks: 4329386 AES-128-CBC ops in 2.99s
+Doing AES-128-CBC ops for 3s on 256 size blocks: 1107626 AES-128-CBC ops in 2.99s
+Doing AES-128-CBC ops for 3s on 1024 size blocks: 278929 AES-128-CBC ops in 2.99s
+Doing AES-128-CBC ops for 3s on 8192 size blocks: 34888 AES-128-CBC ops in 2.99s
+Doing AES-128-CBC ops for 3s on 16384 size blocks: 17456 AES-128-CBC ops in 2.99s
+version: 3.5.4
+built on: Sat Jan 24 15:50:07 2026 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -Wa,--noexecstack -g -O2 -Werror=implicit-function-declaration -ffile-prefix-map=/build/reproducible-path/openssl-3.5.4=. -fstack-protector-strong -Wformat -Werror=format-security -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DZLIB -DZSTD -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=2
+CPUINFO: N/A
+The 'numbers' are in 1000s of bytes per second processed.
+type             16 bytes     64 bytes    256 bytes   1024 bytes   8192 bytes  16384 bytes
+AES-128-CBC      84314.49k    92669.13k    94833.53k    95526.19k    95586.12k    95651.87k
+===== aes-256-cbc =====
+Doing AES-256-CBC ops for 3s on 16 size blocks: 11630637 AES-256-CBC ops in 2.99s
+Doing AES-256-CBC ops for 3s on 64 size blocks: 3114989 AES-256-CBC ops in 2.99s
+Doing AES-256-CBC ops for 3s on 256 size blocks: 791688 AES-256-CBC ops in 3.00s
+Doing AES-256-CBC ops for 3s on 1024 size blocks: 198983 AES-256-CBC ops in 2.99s
+Doing AES-256-CBC ops for 3s on 8192 size blocks: 24885 AES-256-CBC ops in 2.99s
+Doing AES-256-CBC ops for 3s on 16384 size blocks: 12453 AES-256-CBC ops in 2.99s
+version: 3.5.4
+built on: Sat Jan 24 15:50:07 2026 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -Wa,--noexecstack -g -O2 -Werror=implicit-function-declaration -ffile-prefix-map=/build/reproducible-path/openssl-3.5.4=. -fstack-protector-strong -Wformat -Werror=format-security -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DZLIB -DZSTD -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=2
+CPUINFO: N/A
+The 'numbers' are in 1000s of bytes per second processed.
+type             16 bytes     64 bytes    256 bytes   1024 bytes   8192 bytes  16384 bytes
+AES-256-CBC      62237.52k    66675.35k    67557.38k    68146.69k    68179.91k    68237.44k
+===== aes-128-gcm =====
+Doing AES-128-GCM ops for 3s on 16 size blocks: 2475954 AES-128-GCM ops in 2.99s
+Doing AES-128-GCM ops for 3s on 64 size blocks: 1488192 AES-128-GCM ops in 2.99s
+Doing AES-128-GCM ops for 3s on 256 size blocks: 570538 AES-128-GCM ops in 2.99s
+Doing AES-128-GCM ops for 3s on 1024 size blocks: 164704 AES-128-GCM ops in 2.98s
+Doing AES-128-GCM ops for 3s on 8192 size blocks: 21717 AES-128-GCM ops in 2.99s
+Doing AES-128-GCM ops for 3s on 16384 size blocks: 10934 AES-128-GCM ops in 2.99s
+version: 3.5.4
+built on: Sat Jan 24 15:50:07 2026 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -Wa,--noexecstack -g -O2 -Werror=implicit-function-declaration -ffile-prefix-map=/build/reproducible-path/openssl-3.5.4=. -fstack-protector-strong -Wformat -Werror=format-security -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DZLIB -DZSTD -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=2
+CPUINFO: N/A
+The 'numbers' are in 1000s of bytes per second processed.
+type             16 bytes     64 bytes    256 bytes   1024 bytes   8192 bytes  16384 bytes
+AES-128-GCM      13249.25k    31854.28k    48848.74k    56596.27k    59500.22k    59913.93k
+===== aes-256-gcm =====
+Doing AES-256-GCM ops for 3s on 16 size blocks: 2028886 AES-256-GCM ops in 2.99s
+Doing AES-256-GCM ops for 3s on 64 size blocks: 1206010 AES-256-GCM ops in 2.98s
+Doing AES-256-GCM ops for 3s on 256 size blocks: 458862 AES-256-GCM ops in 3.00s
+Doing AES-256-GCM ops for 3s on 1024 size blocks: 132188 AES-256-GCM ops in 2.99s
+Doing AES-256-GCM ops for 3s on 8192 size blocks: 17361 AES-256-GCM ops in 2.98s
+Doing AES-256-GCM ops for 3s on 16384 size blocks: 8735 AES-256-GCM ops in 3.00s
+version: 3.5.4
+built on: Sat Jan 24 15:50:07 2026 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -Wa,--noexecstack -g -O2 -Werror=implicit-function-declaration -ffile-prefix-map=/build/reproducible-path/openssl-3.5.4=. -fstack-protector-strong -Wformat -Werror=format-security -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DZLIB -DZSTD -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=2
+CPUINFO: N/A
+The 'numbers' are in 1000s of bytes per second processed.
+type             16 bytes     64 bytes    256 bytes   1024 bytes   8192 bytes  16384 bytes
+AES-256-GCM      10856.92k    25900.89k    39156.22k    45271.07k    47725.27k    47704.75k
+===== sha1 =====
+Doing sha1 ops for 3s on 16 size blocks: 5819927 sha1 ops in 3.00s
+Doing sha1 ops for 3s on 64 size blocks: 4341380 sha1 ops in 2.99s
+Doing sha1 ops for 3s on 256 size blocks: 2500589 sha1 ops in 2.99s
+Doing sha1 ops for 3s on 1024 size blocks: 928701 sha1 ops in 3.00s
+Doing sha1 ops for 3s on 8192 size blocks: 134836 sha1 ops in 2.99s
+Doing sha1 ops for 3s on 16384 size blocks: 68230 sha1 ops in 3.00s
+version: 3.5.4
+built on: Sat Jan 24 15:50:07 2026 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -Wa,--noexecstack -g -O2 -Werror=implicit-function-declaration -ffile-prefix-map=/build/reproducible-path/openssl-3.5.4=. -fstack-protector-strong -Wformat -Werror=format-security -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DZLIB -DZSTD -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=2
+CPUINFO: N/A
+The 'numbers' are in 1000s of bytes per second processed.
+type             16 bytes     64 bytes    256 bytes   1024 bytes   8192 bytes  16384 bytes
+sha1             31039.61k    92925.86k   214097.25k   316996.61k   369423.58k   372626.77k
+===== sha256 =====
+Doing sha256 ops for 3s on 16 size blocks: 3669965 sha256 ops in 2.99s
+Doing sha256 ops for 3s on 64 size blocks: 2343091 sha256 ops in 2.99s
+Doing sha256 ops for 3s on 256 size blocks: 1131930 sha256 ops in 2.99s
+Doing sha256 ops for 3s on 1024 size blocks: 368616 sha256 ops in 3.00s
+Doing sha256 ops for 3s on 8192 size blocks: 50560 sha256 ops in 2.99s
+Doing sha256 ops for 3s on 16384 size blocks: 25494 sha256 ops in 2.99s
+version: 3.5.4
+built on: Sat Jan 24 15:50:07 2026 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -Wa,--noexecstack -g -O2 -Werror=implicit-function-declaration -ffile-prefix-map=/build/reproducible-path/openssl-3.5.4=. -fstack-protector-strong -Wformat -Werror=format-security -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DZLIB -DZSTD -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=2
+CPUINFO: N/A
+The 'numbers' are in 1000s of bytes per second processed.
+type             16 bytes     64 bytes    256 bytes   1024 bytes   8192 bytes  16384 bytes
+sha256           19638.61k    50153.12k    96914.41k   125820.93k   138524.25k   139696.89k
+===== sha512 =====
+Doing sha512 ops for 3s on 16 size blocks: 3599757 sha512 ops in 2.99s
+Doing sha512 ops for 3s on 64 size blocks: 3611610 sha512 ops in 3.00s
+Doing sha512 ops for 3s on 256 size blocks: 1695386 sha512 ops in 2.99s
+Doing sha512 ops for 3s on 1024 size blocks: 656561 sha512 ops in 3.00s
+Doing sha512 ops for 3s on 8192 size blocks: 97586 sha512 ops in 2.99s
+Doing sha512 ops for 3s on 16384 size blocks: 49422 sha512 ops in 2.99s
+version: 3.5.4
+built on: Sat Jan 24 15:50:07 2026 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -Wa,--noexecstack -g -O2 -Werror=implicit-function-declaration -ffile-prefix-map=/build/reproducible-path/openssl-3.5.4=. -fstack-protector-strong -Wformat -Werror=format-security -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DZLIB -DZSTD -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=2
+CPUINFO: N/A
+The 'numbers' are in 1000s of bytes per second processed.
+type             16 bytes     64 bytes    256 bytes   1024 bytes   8192 bytes  16384 bytes
+sha512           19262.91k    77047.68k   145156.79k   224106.15k   267366.06k   270812.73k
+===== sha3-256 =====
+Doing sha3-256 ops for 3s on 16 size blocks: 2386910 sha3-256 ops in 2.99s
+Doing sha3-256 ops for 3s on 64 size blocks: 2386451 sha3-256 ops in 2.99s
+Doing sha3-256 ops for 3s on 256 size blocks: 1425820 sha3-256 ops in 2.99s
+Doing sha3-256 ops for 3s on 1024 size blocks: 417509 sha3-256 ops in 2.99s
+Doing sha3-256 ops for 3s on 8192 size blocks: 57748 sha3-256 ops in 2.99s
+Doing sha3-256 ops for 3s on 16384 size blocks: 29186 sha3-256 ops in 2.99s
+version: 3.5.4
+built on: Sat Jan 24 15:50:07 2026 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -Wa,--noexecstack -g -O2 -Werror=implicit-function-declaration -ffile-prefix-map=/build/reproducible-path/openssl-3.5.4=. -fstack-protector-strong -Wformat -Werror=format-security -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DZLIB -DZSTD -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=2
+CPUINFO: N/A
+The 'numbers' are in 1000s of bytes per second processed.
+type             16 bytes     64 bytes    256 bytes   1024 bytes   8192 bytes  16384 bytes
+sha3-256         12772.76k    51081.23k   122076.90k   142986.36k   158217.93k   159927.57k
